@@ -1,0 +1,17 @@
+# Local agent instructions
+AGENTS.md
+AGENT.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Logs and checkpoints
+logs/
+checkpoints/
+
+# OS/editor
+.DS_Store
