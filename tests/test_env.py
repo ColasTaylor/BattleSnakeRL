@@ -1,4 +1,4 @@
-from snake_rl.envs.snake_env import SnakeGridEnv
+from snake_rl.envs.snake_grid_env import SnakeGridEnv
 
 
 def test_env_reset_and_step():

@@ -15,15 +15,15 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from snake_rl.agents.heuristic_agents import (  # noqa: E402
+from snake_rl.agents.heuristics import (  # noqa: E402
     RandomAgent,
     GreedyFoodAgent,
     SafeSpaceHeuristicAgent,
     LoopyBotAgent,
     RightBotAgent,
 )
-from snake_rl.agents.ppo_agent import PPOAgent  # noqa: E402
-from snake_rl.envs.snake_env import SnakeGridEnv  # noqa: E402
+from snake_rl.agents.ppo import PPOAgent  # noqa: E402
+from snake_rl.envs.snake_grid_env import SnakeGridEnv  # noqa: E402
 
 
 def train_ppo_randomheuristic(

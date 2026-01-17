@@ -5,14 +5,14 @@ from typing import Any, Dict, List, Optional, Sequence
 
 import numpy as np
 
-from snake_rl.agents.dqn_agent import DQNAgent
-from snake_rl.agents.heuristic_agents import (
+from snake_rl.agents.dqn import DQNAgent
+from snake_rl.agents.heuristics import (
     GreedyFoodAgent,
     RandomAgent,
     SafeSpaceHeuristicAgent,
 )
-from snake_rl.agents.ppo_agent import PPOAgent
-from snake_rl.envs.snake_env import SnakeGridEnv
+from snake_rl.agents.ppo import PPOAgent
+from snake_rl.envs.snake_grid_env import SnakeGridEnv
 
 try:
     import torch

@@ -7,8 +7,8 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from snake_rl.eval.eval_agents import make_agent  # noqa: E402
-from snake_rl.envs.snake_env import SnakeGridEnv  # noqa: E402
+from snake_rl.eval.battle import make_agent  # noqa: E402
+from snake_rl.envs.snake_grid_env import SnakeGridEnv  # noqa: E402
 
 
 def main() -> None:

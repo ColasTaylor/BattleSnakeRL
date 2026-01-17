@@ -2,8 +2,8 @@ from typing import Optional
 
 import numpy as np
 
-from snake_rl.agents.base_agent import Agent
-from snake_rl.envs.snake_env import DIRS
+from snake_rl.agents.base import Agent
+from snake_rl.envs.snake_grid_env import DIRS
 
 
 class RandomAgent(Agent):

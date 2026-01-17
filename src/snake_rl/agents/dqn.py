@@ -13,7 +13,7 @@ try:
 except Exception:
     _HAS_TORCH = False
 
-from snake_rl.agents.base_agent import Agent
+from snake_rl.agents.base import Agent
 
 if _HAS_TORCH:
 

@@ -7,7 +7,7 @@ SRC_ROOT = PROJECT_ROOT / "src"
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from snake_rl.envs.snake_env import SnakeGridEnv  # noqa: E402
+from snake_rl.envs.snake_grid_env import SnakeGridEnv  # noqa: E402
 
 # Global state for the game loop
 env = None

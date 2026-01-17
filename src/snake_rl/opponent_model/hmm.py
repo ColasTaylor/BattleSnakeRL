@@ -7,7 +7,7 @@ from typing import List, Optional, Sequence, Tuple
 
 import numpy as np
 
-from snake_rl.envs.snake_env import SnakeGridEnv
+from snake_rl.envs.snake_grid_env import SnakeGridEnv
 
 
 # ============================================================

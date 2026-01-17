@@ -1,5 +1,5 @@
-from snake_rl.envs.snake_env import SnakeGridEnv
-from snake_rl.opponent_model.hmm_opponent_model import HMMOpponentModel
+from snake_rl.envs.snake_grid_env import SnakeGridEnv
+from snake_rl.opponent_model.hmm import HMMOpponentModel
 
 
 def test_hmm_symbol_encoding():
